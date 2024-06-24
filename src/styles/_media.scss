@@ -1,0 +1,905 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+
+@media (max-width: 1200px) {
+
+
+  .container {
+    max-width: 1000px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(8, 94px);
+  }
+
+  .header__logo {
+    transform: scale(0.88) translate(-13px, 0px);
+  }
+
+  .header__nav {
+    margin-right: 74px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 31px;
+  }
+
+  .hero {
+    padding-top: 34px;
+    padding-bottom: 68px;
+  }
+
+  .hero__photoset {
+    grid-column: 1 / 5;
+    padding: 425px 20px 10px 30px;
+    background-image: url(../images/hero-camera1024.jpg);
+  }
+
+  .hero__works-wrapper {
+    grid-template-rows: 332px 186px;
+  }
+
+  .work1 {
+    background-image: url(../images/work1-1024.jpg);
+  }
+
+  .work2 {
+    background-image: url(../images/work2-1024.jpg);
+  }
+
+  .work3 {
+    background-image: url(../images/work3-1024.jpg);
+  }
+
+  .hero__title {
+    padding-top: 8px;
+    font-size: 34px;
+  }
+
+  .hero__h2 {
+    margin-bottom: 25px;
+  }
+
+  .hero__works {
+    grid-column: 5 / 9;
+  }
+
+  .studio {
+    padding-top: 31px;
+    padding-bottom: 83px;
+  }
+
+  .studio__descr {
+    padding-top: 1px;
+    grid-column: 1 / 5;
+  }
+
+  .studio__form-wrapper {
+    grid-column: 5 / 9;
+    grid-template-rows: 331px 156px;
+  }
+
+  .studio__form-img {
+    background-image: url(../images/camera1024.jpg);
+  }
+
+  .studio__form {
+    flex-direction: column;
+  }
+
+  .studio__title {
+    margin-bottom: 5px;
+  }
+
+  .studio__input {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 342px;
+  }
+
+  .projects__wrapper {
+    grid-template-rows: 281px 307px 307px;
+    row-gap: 26px;
+  }
+
+  .fuji {
+    padding: 32px 10px 10px 29px;
+    background-image: url(../images/eye1024.jpg);
+  }
+
+  .projects__item-wrapper {
+    width: 53%;
+  }
+
+  .oblivion__wrapper {
+    width: 55%;
+  }
+
+  .projects__item-object {
+    grid-column: 5 / 9;
+  }
+
+  .projects__item-descr {
+    margin-bottom: 18px;
+    -webkit-line-clamp: 2;
+  }
+
+  .projects-descr {
+    margin-bottom: 54px;
+    -webkit-line-clamp: 3;
+  }
+
+  .projects__item-fuji {
+    grid-column: 1 / 6;
+  }
+
+  .projects__item-retouch {
+    grid-column: 6 / 9;
+    grid-row: 2;
+  }
+
+  .projects-retouch,
+  .projects-girl {
+    -webkit-line-clamp: 3;
+  }
+
+  .projects__item-girl {
+    grid-column: 1 / 4;
+    grid-row: 3;
+  }
+
+  .oblivion {
+    grid-column: 4 / 9;
+    grid-row: 3;
+    padding: 30px;
+    background-image: url(../images/oblivion1024.jpg);
+  }
+
+  .oblivion__title {
+    margin-bottom: 5px;
+    padding-top: 2px;
+  }
+
+  .oblivion__descr {
+    margin-bottom: 100px;
+  }
+
+  .contacts {
+    padding-bottom: 68px;
+  }
+
+  .contacts__map {
+    grid-column: 1 / 6;
+    padding-top: 303px;
+    background-image: url(../images/map1024.jpg);
+  }
+
+  .contacts__map-wrapper {
+    padding: 26px 260px 0 31px;
+    width: 100%;
+  }
+
+  .point {
+    top: 95px;
+    right: 93px;
+  }
+
+  .contacts__descr {
+    position: relative;
+  }
+
+  .contacts__link-tel {
+    position: absolute;
+    top: 58px;
+    right: -12px;
+  }
+
+  .contacts__form {
+    grid-column: 6 / 9;
+  }
+
+  .contacts__input,
+  .contacts__textarea {
+    width: 100%;
+  }
+
+  .footer__logo {
+    transform: scale(0.88) translate(-13px, 4px);
+  }
+
+  .footer__descr {
+    padding-right: 37px;
+    padding-left: 95px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .container {
+    max-width: 754px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(6, 94px);
+  }
+
+  .header__wrapper {
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 13px;
+  }
+
+  .header__nav {
+    overflow: hidden;
+  }
+
+  .nav__list {
+    overflow: scroll;
+  }
+
+  .header-btn {
+    position: absolute;
+    right: 0px;
+    top: 26px;
+  }
+
+  .header__logo {
+    margin-bottom: 28px;
+  }
+
+  .header__nav {
+    margin-right: 0;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 72px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .hero {
+    padding-top: 38px;
+  }
+
+  .hero__photoset {
+    grid-column: 1 / 4;
+    padding: 224px 10px 10px 29px;
+    background-image: url(../images/hero-camera768.jpg);
+  }
+
+  .hero__works {
+    grid-column: 4 / 7;
+  }
+
+  .hero__works-wrapper {
+    grid-template-rows: 228px 133px;
+  }
+
+  .work1 {
+    background-image: url(../images/work1-768.jpg);
+  }
+
+  .work2 {
+    background-image: url(../images/work2-768.jpg);
+  }
+
+  .work3 {
+    background-image: url(../images/work3-768.jpg);
+  }
+
+  .hero__h2 {
+    margin-bottom: 17px;
+    margin-top: -2px;
+    font-size: 22px;
+  }
+
+  .hero__title {
+    margin-bottom: 23px;
+    padding-top: 14px;
+    font-size: 34px;
+    line-height: 92%;
+  }
+
+  .studio {
+    padding-bottom: 63px;
+  }
+
+  .studio__title {
+    font-size: 24px;
+  }
+
+  .studio__descr {
+    grid-column: 1 / 4;
+  }
+
+  .studio__form-wrapper {
+    grid-column: 4 / 7;
+    grid-template-rows: 568px 156px;
+  }
+
+  .studio__h3 {
+    font-size: 24px;
+  }
+
+  .projects__wrapper {
+    grid-template-rows: 299px 303px 303px 307px;
+  }
+
+  .projects__item-object {
+    grid-column: 5 / 7;
+  }
+
+  .projects__item-descr {
+    margin-bottom: 11px;
+    -webkit-line-clamp: 3;
+  }
+
+  .fuji {
+    padding: 31px 10px 10px 30px;
+  }
+
+  .object-descr {
+    margin-bottom: 32px;
+    -webkit-line-clamp: 2;
+  }
+
+  .projects__item-fuji {
+    grid-column: 1 / 7;
+    background-image: url(../images/eye768.jpg);
+  }
+
+  .projects__item-retouch {
+    grid-column: 1 / 4;
+    grid-row: 3;
+  }
+
+  .projects__item-girl {
+    grid-column: 4 / 7;
+  }
+
+  .oblivion {
+    grid-column: 1 / 7;
+    grid-row: 4;
+    padding: 34px 10px 10px 30px;
+    background-image: url(../images/oblivion768.jpg);
+  }
+
+  .projects__item-wrapper {
+    width: 43.5%;
+  }
+
+  .projects-descr {
+    margin-bottom: 48px;
+  }
+
+  .projects-retouch,
+  .projects-girl {
+    margin-bottom: 18px;
+  }
+
+  .oblivion__descr {
+    margin-bottom: 93px;
+  }
+
+  .oblivion__label {
+    top: 12px;
+  }
+
+  .contacts__map {
+    padding-top: 300px;
+    grid-column: 1 / 7;
+    background-image: url(../images/map768.jpg);
+  }
+
+  .point {
+    top: 93px;
+    right: 218px;
+  }
+
+  .contacts__link-tel {
+    right: 258px;
+  }
+
+  .contacts__wrapper {
+    row-gap: 28px;
+  }
+
+  .contacts__form {
+    grid-column: 1 / 5;
+  }
+
+  .contacts__form-descr {
+    width: 95%;
+  }
+
+  .contacts__input, .contacts__textarea {
+    width: 465px;
+  }
+
+  .footer__descr {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 546px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  }
+
+  .hero__photoset {
+    margin-bottom: 34px;
+    grid-column: 1 / 3;
+    background-size: cover;
+  }
+
+  .hero__works-wrapper {
+    grid-template-rows: 337px 202px;
+  }
+
+  .hero__works-img {
+    width: 100%;
+  }
+
+  .hero__works {
+    grid-column: 1 / 3;
+  }
+
+  .studio__descr {
+    grid-column: 1 / 3;
+    margin-bottom: 23px;
+  }
+
+  .studio__form-wrapper {
+    grid-column: 1 / 3;
+  }
+
+  .studio__input {
+    width: calc(100% - 40px);
+  }
+
+  .projects__wrapper {
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .fuji {
+    background-image: url(../images/eye320.jpg);
+    background-size: cover;
+  }
+
+  .oblivion {
+    background-image: url(../images/oblivion320.jpg);
+    background-size: cover;
+  }
+
+  .projects__item {
+    grid-column: 1 / 3;
+  }
+
+  .projects__item-img {
+    width: 100%;
+  }
+
+  .projects__item-scenery {
+    grid-row: 1;
+  }
+
+  .projects__item-portrait {
+    grid-row: 2;
+  }
+
+  .projects__item-object {
+    grid-row: 3;
+  }
+
+  .projects__item-fuji {
+    grid-row: 4;
+  }
+
+  .projects__item-oblivion {
+    grid-row: 5;
+  }
+
+  .projects__item-retouch {
+    grid-row: 6;
+  }
+
+  .projects__item-girl {
+    grid-row: 7;
+  }
+
+  .contacts__map {
+    grid-column: 1 / 3;
+    background-image: url(../images/map320.jpg);
+    background-size: cover;
+    background-position: 0px -70px;
+  }
+
+  .contacts__form {
+    grid-column: 1 / 3;
+  }
+
+  .point {
+    top: 95px;
+    right: 71px;
+  }
+
+  .contacts__map-wrapper {
+    padding: 20px;
+  }
+
+  .contacts__input, .contacts__textarea {
+    width: calc(100% - 40px);
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .hero__works-wrapper {
+    grid-template-rows: 312px 202px;
+  }
+
+  .studio__form-wrapper {
+    grid-template-rows: 277px 143px;
+    row-gap: 19px;
+  }
+
+  .studio__form-img {
+    background-image: url(../images/camera320.jpg);
+  }
+
+  .contacts__link-tel {
+    right: 0;
+    left: 3px;
+    top: 84px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .hero__works-wrapper {
+    grid-template-rows: 283px 153px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .container {
+    max-width: 320px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 124px);
+  }
+
+  .header__logo {
+    transform: scale(0.59) translate(-67px, -9px);
+  }
+
+  .search {
+    transform: scale(0.8) translate(3px, -4px);
+  }
+
+  .header__link-logo {
+    height: 53px;
+  }
+
+  .hero {
+    padding-top: 29px;
+  }
+
+  .hero__photoset {
+    padding: 233px 23px 30px 28px;
+    background-image: url(../images/hero-camera320.jpg);
+  }
+
+  .hero__label {
+    top: 7px;
+    right: 5px;
+    padding-top: 4px;
+    width: 95px;
+    height: 22px;
+    font-size: 12px;
+  }
+
+  .work1 {
+    background-image: url(../images/work1-320.jpg);
+  }
+
+  .work2 {
+    background-image: url(../images/work2-320.jpg);
+  }
+
+  .work3 {
+    background-image: url(../images/work3-320.jpg);
+  }
+
+  .section-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 104%;
+  }
+
+  .section-descr {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding-bottom: 50px;
+  }
+
+  .hero__title {
+    margin-bottom: 12px;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+  }
+
+  .hero__btn {
+    padding: 12px 23px;
+  }
+
+  .hero__h2 {
+    padding-top: 2px;
+  }
+
+  .hero__works-wrapper {
+    grid-template-rows: 185px 105px;
+  }
+
+  .studio {
+    padding-top: 34px;
+    padding-bottom: 61px;
+  }
+
+  .studio-descr {
+    font-size: 14px;
+    line-height: 179%;
+  }
+
+  .studio__h3 {
+    padding-top: 7px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  .studio__input {
+    width: 278px;
+    height: 40px;
+  }
+
+  .studio__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .studio__btn {
+    width: 115px;
+    height: 39px;
+    font-size: 14px;
+  }
+
+  .projects {
+    padding-top: 52px;
+    padding-bottom: 36px;
+  }
+
+  .projects__title {
+    margin-bottom: 18px;
+  }
+
+  .projects__label {
+    top: 5px;
+    right: 5px;
+    padding: 0px 15px;
+    font-size: 12px;
+  }
+
+  .projects__wrapper {
+    grid-template-rows: 299px 277px 275px 422px 299px 299px 422px;
+  }
+
+  .projects__item-oblivion {
+    grid-row: 7;
+  }
+
+  .projects__item-retouch {
+    grid-row: 5;
+  }
+
+  .projects__item-girl {
+    grid-row: 6;
+  }
+
+  .projects__item-descr {
+    margin-bottom: 9px;
+    font-size: 16px;
+  }
+
+  .projects__item-date {
+    font-size: 12px;
+  }
+
+  .projects__item-img {
+    margin-bottom: 13px;
+  }
+
+  .projects__item-title {
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+  }
+
+  .projects-descr {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+  }
+
+  .projects__item-wrapper {
+    width: 84.5%;
+  }
+
+  .projects__btn {
+    padding: 10px;
+    width: 109px;
+    height: 40px;
+  }
+
+  .fuji,
+  .oblivion {
+    padding: 196px 10px 10px 30px;
+  }
+
+  .oblivion__descr {
+    margin-bottom: 25px;
+    -webkit-line-clamp: 4;
+  }
+
+  .contacts__title {
+    margin-bottom: 15px;
+  }
+
+  .contacts {
+    position: relative;
+    padding-bottom: 0;
+    background-image: url(../images/map320.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px 472px;
+    background-position: 0px 35px;
+  }
+
+  .contacts__wrapper {
+    grid-template-rows: repeat(2, 474px);
+  }
+
+  .contacts__map {
+    background-image: none;
+  }
+
+  .contacts__map-wrapper {
+    padding: 27px 36px 20px 20px;
+    @include absolute;
+    top: 316px;
+    left: -21px;
+    width: 320px;
+    height: 157px;
+  }
+
+  .point {
+    top: 96px;
+    right: 24px;
+  }
+
+  .contacts__h3 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  .contacts__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+  }
+
+  .contacts__link-tel {
+    top: 69px;
+    left: -3px;
+    width: 148px;
+  }
+
+  .telephone {
+    left: 2px;
+    transform: scale(0.85);
+    top: -2px;
+  }
+
+  .contacts__form-h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  .contacts__form-descr {
+    margin-bottom: 14px;
+    width: 100%;
+  }
+
+  .contacts__input {
+    height: 40px;
+  }
+
+  .contacts__btn {
+    padding: 10px;
+    width: 116px;
+    height: 40px;
+  }
+
+  .contacts__input, .contacts__textarea {
+    padding: 11px 23px;
+    width: 277px;
+  }
+
+  .contacts__input::placeholder,
+  .contacts__textarea::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .footer__container {
+    position: relative;
+    flex-direction: column-reverse;
+    padding: 31px 0 13px;
+  }
+
+  .footer__social-wrapper {
+    margin-bottom: 28px;
+  }
+
+  .footer__social-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    text-align: center;
+  }
+
+  .footer__logo {
+    margin-bottom: 3px;
+    transform: scale(0.58) translate(2px, 12px);
+  }
+
+  .footer__span {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .footer__logo-wrapper {
+    @include absolute;
+    align-items: center;
+    top: 123px;
+    width: 320px;
+    height: 60px;
+    background-color: $asphalt-color;
+  }
+
+
+
+}
